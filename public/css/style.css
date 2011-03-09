@@ -266,28 +266,28 @@ ul.faq li.clear{
 
 /* - -- --- NEWSLETTER --- -- - */
 
-.newsletter{
+.signupForm{
 	margin: 20px 0 0 0;
 	clear: both;
 }
 
-.newsletter .newsletterTitle{
+.signupForm .signupFormTitle{
 	float: left;
 	width: 300px;
-	margin: 0 20px 0 0;
-	text-align: right;
+	margin: 0 0 5px 0;
+	text-align: left;
 	font-size: 14px;
 	line-height: 17px;
 	color: #fff;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 
-.newsletterTitle strong{
+.signupFormTitle strong{
 	color: #151515;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-#singUp{
+#signUp{
 	float: left;
 	margin: -2px 0 0 10px;
 	width: 91px;
