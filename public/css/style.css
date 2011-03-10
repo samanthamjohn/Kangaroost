@@ -266,12 +266,19 @@ ul.faq li.clear{
 
 /* - -- --- NEWSLETTER --- -- - */
 
-.signupForm{
+.signupform{
 	margin: 20px 0 0 0;
 	clear: both;
 }
-
-.signupForm .signupFormTitle{
+{
+	float: left;
+	width: 100px;
+	margin: 0 0 5px 0;
+	text-align: left;
+	font-size: 14px;
+	line-height: 17px;
+}
+.signupform .signupformTitle{
 	float: left;
 	width: 300px;
 	margin: 0 0 5px 0;
@@ -282,12 +289,12 @@ ul.faq li.clear{
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 
-.signupFormTitle strong{
+.signupformTitle strong{
 	color: #151515;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-#signUp{
+#signUp, #ab_testing_submit{
 	float: left;
 	margin: -2px 0 0 10px;
 	width: 91px;
@@ -340,7 +347,7 @@ ul.faq li.clear{
 
 /* - -- --- FORM --- -- - */
 
-.form{
+.form, #ab_testing_email {
 	float: left;
 	width: 210px;
 	padding: 8px 12px;
