@@ -1,8 +1,9 @@
 class AbTesting < ActiveRecord::Base
   attr_accessor :logo, :tagline, :preview_image, :short_description, :sliders
   
-  def self.setup_test
-    test_type = rand(3)
+  def self.setup_test(test_type = nil)
+    test_type ||= rand(3)
+    test_type = test_type.to_i
     test = self.new(test: test_type)
     case test_type
     when 0 

@@ -1,7 +1,7 @@
 class AbTestingController < ApplicationController
 
   def index
-    @test = AbTesting.setup_test
+    @test = AbTesting.setup_test(params[:test])
   end
 
   def create
