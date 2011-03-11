@@ -5,7 +5,8 @@ class AbTestingController < ApplicationController
   end
 
   def create
-    @test = AbTesting.new(params[:ab_testing])
+    @test = "Conversion Page"
+    @test = AbTesting.new(params[:ab_testing]) if params[:ab_testing]
     respond_to do |format|
       if @test.save
         format.html { render :action => "show" }

@@ -4,15 +4,15 @@ function utmx_section(){}function utmx(){}
 (function(){var k='2187619011',d=document,l=d.location,c=d.cookie;function f(n){
 if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return escape(c.substring(i+n.
 length+1,j<0?c.length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;
-d.write('<sc'+'ript src=''+
+d.write('<sc'+'ript src=\"'+
 'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'
 +'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='
 +new Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-'' type='text/javascript' charset='utf-8'></sc'+'ript>')})();
-</script><script>utmx('url','A/B');</script>
+'\" type=\"text/javascript\" charset=\"utf-8\"></sc'+'ript>')})();
+</script><script>utmx(\"url\",'A/B');</script>
 <!-- End of Google Website Optimizer Control Script -->
 <!-- Google Website Optimizer Tracking Script -->
-<script type='text/javascript'>
+<script type=\"text/javascript\">
   var _gaq = _gaq || [];
     _gaq.push(['gwo._setAccount', 'UA-21919648-2']);
       _gaq.push(['gwo._trackPageview', '/2187619011/test']);
