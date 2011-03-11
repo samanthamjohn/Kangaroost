@@ -18,6 +18,7 @@ class AbTesting < ActiveRecord::Base
 
 
   def execute_test_zero
+    @script = Script1 
     @logo = "https://s3.amazonaws.com/Kangaroost/img/kangaroostlogo2.png"
     @tagline = "A new way to travel."
     @short_description = "Give and get points.  Stay all over. <br />  Why wait?  Start now."
@@ -52,6 +53,7 @@ class AbTesting < ActiveRecord::Base
   end
 
   def execute_test_one
+    @script = ScriptVar
     @logo = "https://s3.amazonaws.com/Kangaroost/img/kangaroostlogo2.png"
     @tagline = "Put your place into the pool."
     @short_description = "Get points for sharing your place.<br />Then travel without spending a dime."
@@ -86,6 +88,7 @@ class AbTesting < ActiveRecord::Base
   end
 
   def execute_test_two
+    @script = ScriptVar
     @logo = "https://s3.amazonaws.com/Kangaroost/img/kangaroostlogo2.png"
     @tagline = "Travel more. You won't need to spring for lodging."
     @short_description = "Kangaroost helps you find a place to stay with people you just may already know."
