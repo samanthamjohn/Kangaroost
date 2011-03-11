@@ -50,12 +50,15 @@ body{
 .wrap{
 	width: 800px;
 	margin: 0 auto;
+	background-image: url(https://s3.amazonaws.com/Kangaroost/img/footerillustration.png); 
+	background-repeat: no-repeat;
+	background-position: 100% 20%;
 }
 
 .intro{
 	float: left;
 	width: 360px;
-	padding: 0 40px 40px 0;
+	padding: 0 40px 110px 0;
 }
 
 .downloadInfo{
@@ -73,12 +76,12 @@ body{
 .preview{
 	float: left;
 	width: 360px;
-	padding: 0 0 40px 40px;
+	padding: 0px 20px 40px 10px;
 }
 
 #logo{
 	float: left;
-	margin: 0 0 20px;
+	margin: 0 0 20px -80px;
 }
 
 
@@ -270,18 +273,11 @@ ul.faq li.clear{
 	margin: 20px 0 0 0;
 	clear: both;
 }
-{
-	float: left;
-	width: 100px;
-	margin: 0 0 5px 0;
-	text-align: left;
-	font-size: 14px;
-	line-height: 17px;
-}
+
 .signupform .signupformTitle{
 	float: left;
 	width: 300px;
-	margin: 0 0 5px 0;
+	margin: 0 20px 0 0;
 	text-align: left;
 	font-size: 14px;
 	line-height: 17px;
@@ -300,7 +296,7 @@ ul.faq li.clear{
 	width: 91px;
 	height: 40px;
 	text-indent: -9999px;
-	background: url(https://s3.amazonaws.com/Kangaroost/img/signup.png) no-repeat 0 0;
+	background: url(https://s3.amazonaws.com/Kangaroost/img/signupbutton.png) no-repeat 0 0;
 	cursor: pointer;
 }
 
