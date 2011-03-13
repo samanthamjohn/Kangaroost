@@ -1,2 +1,28 @@
-Use this README file to introduce your application and point to useful places in the API for learning more.
-Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+Instructions: 
+
+Before running the app you should get all the changes that have been made since you last used it. You start by opening the Terminal application and typing the command: 
+./deploy.sh
+
+To start the app server so you can see it on your browser type the command: 
+./server.sh
+
+The app will be available when you point your browser to http://localhost:3000 (bookmarked in chrome)
+
+You stop the server by typing the command: 
+./server_stop.sh
+
+You should stop the server when you're done editing as running the server will drain your battery and use processing power. 
+
+When you're finished with your changes and want to see them on the actual website type the command: 
+./deploy.sh
+
+This will make changes to the website in production so proceed with caution, don't do this if something is broken. 
+
+**If this doesn't work you should try typing the command: 
+cd
+
+This will take you to your home directory where the scripts are stored. 
+
+A .sh script is just a set of commands typed into the terminal, you can open a script in textmate to see which commands it executes. 
+
+You can use the gitx application to keep track of changes- if you refresh it you will be able to see which files I have changed since you last logged in and what files you have changed as well. 
