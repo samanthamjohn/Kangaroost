@@ -36,6 +36,7 @@ GEM
     fastthread (1.0.7)
     file-tail (1.0.5)
       spruz (>= 0.1.0)
+    haml (3.0.25)
     i18n (0.5.0)
     mail (2.2.15)
       activesupport (>= 2.3.6)
@@ -85,6 +86,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml
   mysql2
   passenger
   pony
