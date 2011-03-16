@@ -1,0 +1,21 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "en", :lang => "en"}
+    %head 
+        %title Kangaroost
+        =stylesheet_link_tag :all
+        =javascript_include_tag :defaults
+        =csrf_meta_tag
+        /stylesheets
+        %link{ rel: 'stylesheet', href: 'css/style.css', media: 'screen'}
+        %link{ rel: "stylesheet", href: "js/fancybox/jquery.fancybox-1.3.4.css", media: "screen"}
+        %link{ rel: "shortcut icon", href: "img/favicon.png"}
+
+        /jQuery Library
+        %script{ src: "js/jQuery.min.js"}
+        %script{ src: "js/jquery.timeago.js"}
+        %script{ src: "js/fancybox/jquery.fancybox-1.3.4.pack.js"}
+        %script{ src: "js/functions.js"}
+        = raw(@test.script)
+
+    %body= yield
+
