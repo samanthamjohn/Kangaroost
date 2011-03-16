@@ -15,7 +15,8 @@
         %script{ src: "js/jquery.timeago.js"}
         %script{ src: "js/fancybox/jquery.fancybox-1.3.4.pack.js"}
         %script{ src: "js/functions.js"}
-        = raw(@test.script)
+        = yield :scripts
 
-    %body= yield
+    %body
+        = yield :body_content
 
