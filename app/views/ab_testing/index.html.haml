@@ -6,8 +6,8 @@
             .intro
                 %a{:href => "index.html", :id => "logo"}
                     %img{:src => @test.logo, :alt => "Kangaroost"}
-                %h1= @test.tagline 
-                %p= raw(@test.short_description) 
+                %h1= @test.tagline
+                %p= raw(@test.short_description)
                 .signupForm
                     .signupFormTitle
                         %strong= "Sign up for our private beta"
@@ -15,24 +15,24 @@
                         = f.text_field :email, {:placeholder => "Your email"}
                         = f.hidden_field :test, {:value => @test.test}
                         = f.submit
-		    	
+
             .preview
             .titleSeparator
                 %h2= "How it works"
-	    	
+
             %a{ :href => "#", :rel => "left", :class=> "arrow arrowLeft"}
             .sliderContainer
                 %ul{ :class => "slider"}
                     -@test.sliders.each do |slider|
                         %li= raw(slider)
-      
+
                 %ul{ :class => "sliderController"}
 
             %a{ :href => "#", :rel => "right", :class => "arrow arrowRight"}
             .titleSeparator
             #footer
-                HI THERE, WE'RE TESTING OUT COPY.  
+                HI THERE, WE'RE TESTING OUT COPY.
                 = link_to "RELOAD TO SEE A DIFFERENT VERSION.", "http://kangaroost.com"
-                SIGN UP FOR YOUR FAVE. 
+                SIGN UP FOR YOUR FAVE.
                 %ul{ :class => 'social'}
                     %li= link_to image_tag("https://s3.amazonaws.com/Kangaroost/img/social/twitter.png"), "http://twitter.com/kangaroost"

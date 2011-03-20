@@ -30,6 +30,8 @@ GEM
     activesupport (3.0.3)
     arel (2.0.9)
     builder (2.1.2)
+    compass (0.10.6)
+      haml (>= 3.0.4)
     daemon_controller (0.2.6)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -86,6 +88,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  compass (>= 0.10.6)
   haml
   mysql2
   passenger
