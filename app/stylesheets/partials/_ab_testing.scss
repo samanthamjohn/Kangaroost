@@ -22,6 +22,14 @@ body {
   background: url(https://s3.amazonaws.com/Kangaroost/img/bg.jpg);
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 
+  h1 {
+    margin: 0 0 20px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    clear: both;
+  }
+
   h2{
     font: normal 22px/1em DroidSansBold, arial;
   }
@@ -68,13 +76,6 @@ body {
           font-size: 20px;
           line-height: 1.4em;
           margin-bottom: 20px;
-        }
-        h1 {
-          margin: 0 0 20px;
-          font-size: 35px;
-          color: white;
-          text-shadow: 0 1px 0 rgba(0,0,0,0.4);
-          clear: both;
         }
         .signupForm {
           color: green;
