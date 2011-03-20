@@ -1,20 +1,20 @@
 Instructions: 
 
 Before running the app you should get all the changes that have been made since you last used it. You start by opening the Terminal application and typing the command: 
-./deploy.sh
+deploy
 
 To start the app server so you can see it on your browser type the command: 
-./server.sh
+server
 
 The app will be available when you point your browser to http://localhost:3000 (bookmarked in chrome)
 
 You stop the server by typing the command: 
-./server_stop.sh
+server_stop
 
 You should stop the server when you're done editing as running the server will drain your battery and use processing power. 
 
 When you're finished with your changes and want to see them on the actual website type the command: 
-./deploy.sh
+deploy
 
 This will make changes to the website in production so proceed with caution, don't do this if something is broken. 
 
