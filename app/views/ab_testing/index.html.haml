@@ -11,7 +11,7 @@
                 .signupForm
                     .signupFormTitle
                         %strong= "Sign up for our private beta"
-                    - form_for(:ab_testing) do |f|
+                    = form_for(:ab_testing) do |f|
                         = f.text_field :email, {:placeholder => "Your email"}
                         = f.hidden_field :test, {:value => @test.test}
                         = f.submit
